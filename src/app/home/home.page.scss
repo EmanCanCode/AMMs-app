@@ -1,27 +1,66 @@
-#container {
-  text-align: center;
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f4f4f8; // Light grey background
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; // Spacing between cards
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+    .card {
+      background-color: #ffffff; // White card background
+      border: 1px solid #ddd; // Light grey border
+      border-radius: 10px; // Rounded corners
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Subtle shadow
+      padding: 20px;
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+      .card-title {
+        font-size: 1.2rem;
+        color: #333; // Dark text for contrast
+        margin-bottom: 15px; // Spacing under the title
+      }
 
-  color: #8c8c8c;
+      .card-body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px; // Spacing between elements in card
 
-  margin: 0;
-}
+        .token-data {
+          display: flex;
+          align-items: center;
+          justify-content: space-between; // Space out elements
 
-#container a {
-  text-decoration: none;
+          .name {
+            color: #555; // Dark grey text
+          }
+
+          ion-button {
+            --background: #007bff; // Button color
+            --background-hover: #0056b3; // Button hover color
+            --color: white; // Text color on button
+          }
+
+          .swap-btn {
+            --background: #28a745; // Green for swap buttons
+          }
+
+          .need-tokens {
+            --background: #ffc107; // Yellow for 'Need more?' buttons
+          }
+        }
+
+        .reserves {
+          color: #555;
+        }
+      }
+
+      .add-lqty, .remove-lqty {
+        --background: #17a2b8; // Teal color for liquidity buttons
+      }
+    }
+  }
 }

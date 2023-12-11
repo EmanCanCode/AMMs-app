@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,8 +13,38 @@
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="main-container">
+    <div class="card-container">
+      <div class="card">
+        <legend class="card-title">Swap</legend>
+        <div class="card-body">
+          <div class="token-data">
+            <p class="name">Eman Token 1 balance: 2.533 ET1</p>
+            <ion-button class="swap-btn">Swap</ion-button>
+            <ion-button class="need-tokens">Need more?</ion-button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="token-data">
+            <p class="name">Eman Token 2 balance: 18.525 ET2</p>
+            <ion-button class="swap-btn">Swap</ion-button>
+            <ion-button class="need-tokens">Need more?</ion-button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <legend class="card-title">Liquidity</legend>
+        <div id="card-body">
+          <p class="reserves">ET1 Reserves: 151.151 ET1</p>
+          <p class="reserves">ET2 Reserves: 358.555 ET2</p>
+          <p class="reserves">My shares (LPT): 707</p>
+        </div>
+        <div class="card-body">
+          <p>Total Shares: 1501</p>
+          <ion-button class="add-lqty">Add Liquidity</ion-button>
+          <ion-button class="remove-lqty">Remove Liquidity</ion-button>
+        </div>
+      </div>
+    </div>
   </div>
 </ion-content>
