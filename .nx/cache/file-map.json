@@ -70,6 +70,22 @@
         "hash": "91109559695469517"
       },
       {
+        "file": ".nx/cache/file-map.json",
+        "hash": "13409102653342610549"
+      },
+      {
+        "file": ".nx/cache/lockfile.hash",
+        "hash": "16585446143172665624"
+      },
+      {
+        "file": ".nx/cache/parsed-lock-file.json",
+        "hash": "7567319725825121271"
+      },
+      {
+        "file": ".nx/cache/project-graph.json",
+        "hash": "12781421592871103813"
+      },
+      {
         "file": ".vscode/extensions.json",
         "hash": "592272277800690021"
       },
@@ -135,11 +151,11 @@
       },
       {
         "file": "src/app/home/home.page.html",
-        "hash": "3668328913015384273"
+        "hash": "18057402654362901431"
       },
       {
         "file": "src/app/home/home.page.scss",
-        "hash": "14250411118003398491"
+        "hash": "18332711958274270584"
       },
       {
         "file": "src/app/home/home.page.spec.ts",
@@ -192,6 +208,10 @@
       {
         "file": "src/zone-flags.ts",
         "hash": "3323586086306676158"
+      },
+      {
+        "file": "t.json",
+        "hash": "3244421341483603138"
       },
       {
         "file": "tsconfig.app.json",

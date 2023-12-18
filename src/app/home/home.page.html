@@ -1,48 +1,44 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+  <div class="header-container">
+    <div class="logo-container"><img src="../../assets/ecc.png" alt="Eman Can Code"></div>
+    <ion-button class="connect-btn" *ngIf="!authorized" (click)="connectWallet()">Connect Wallet</ion-button>
+    <ion-button class="connect-btn" *ngIf="authorized"(click)="connectWallet()">{{parsedAddr}}</ion-button>
+  </div>
   <div class="main-container">
     <div class="card-container">
       <div class="card">
         <legend class="card-title">Swap</legend>
         <div class="card-body">
           <div class="token-data">
-            <p class="name">Eman Token 1 balance: 2.533 ET1</p>
-            <ion-button class="swap-btn">Swap</ion-button>
-            <ion-button class="need-tokens">Need more?</ion-button>
+            <p class="name">ET1 balance: <span>{{et1.balance}}</span></p>
+            <div class="swap-btn-container">
+              <ion-button [disabled]="!authorized" class="swap-btn">Swap</ion-button>
+              <ion-button [disabled]="!authorized" class="need-tokens">Need more?</ion-button>
+            </div>
           </div>
         </div>
         <div class="card-body">
           <div class="token-data">
-            <p class="name">Eman Token 2 balance: 18.525 ET2</p>
-            <ion-button class="swap-btn">Swap</ion-button>
-            <ion-button class="need-tokens">Need more?</ion-button>
+            <p class="name">ET2 balance: <span>{{et2.balance}}</span></p>
+            <div class="swap-btn-container">
+              <ion-button [disabled]="!authorized" class="swap-btn">Swap</ion-button>
+              <ion-button [disabled]="!authorized" class="need-tokens">Need more?</ion-button>
+            </div>
           </div>
         </div>
       </div>
       <div class="card">
         <legend class="card-title">Liquidity</legend>
         <div id="card-body">
-          <p class="reserves">ET1 Reserves: 151.151 ET1</p>
-          <p class="reserves">ET2 Reserves: 358.555 ET2</p>
-          <p class="reserves">My shares (LPT): 707</p>
-        </div>
-        <div class="card-body">
-          <p>Total Shares: 1501</p>
-          <ion-button class="add-lqty">Add Liquidity</ion-button>
-          <ion-button class="remove-lqty">Remove Liquidity</ion-button>
+          <p class="reserves">ET1 Reserves: <span>151.151 ET1</span></p>
+          <p class="reserves">ET2 Reserves: <span>358.555 ET2</span></p>
+          <p class="reserves">Total Shares: <span>1501</span></p>
+          <p class="reserves">My shares (LPT): <span>707</span></p>
+          <div class="btn-container">
+            <ion-button [disabled]="!authorized" class="add-lqty">Add Liquidity</ion-button>
+            <ion-button [disabled]="!authorized" class="remove-lqty" (click)="liquidity('remove')">Remove Liquidity</ion-button>
+          </div>
         </div>
       </div>
     </div>
