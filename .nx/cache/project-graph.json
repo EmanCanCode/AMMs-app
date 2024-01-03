@@ -2044,6 +2044,303 @@
         "hash": "sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w=="
       }
     },
+    "npm:@ethersproject/abi": {
+      "type": "npm",
+      "name": "npm:@ethersproject/abi",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/abi",
+        "hash": "sha512-351ktp42TiRcYB3H1OP8yajPeAQstMW/yCFokj/AthP9bLHzQFPlOrxOcwYEDkUAICmOHljvN4K39OMTMUa9RA=="
+      }
+    },
+    "npm:@ethersproject/abstract-provider": {
+      "type": "npm",
+      "name": "npm:@ethersproject/abstract-provider",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/abstract-provider",
+        "hash": "sha512-R41c9UkchKCpAqStMYUpdunjo3pkEvZC3FAwZn5S5MGbXoMQOHIdHItezTETxAO5bevtMApSyEhn9+CHcDsWBw=="
+      }
+    },
+    "npm:@ethersproject/abstract-signer": {
+      "type": "npm",
+      "name": "npm:@ethersproject/abstract-signer",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/abstract-signer",
+        "hash": "sha512-a16V8bq1/Cz+TGCkE2OPMTOUDLS3grCpdjoJCYNnVBbdYEMSgKrU0+B90s8b6H+ByYTBZN7a3g76jdIJi7UfKQ=="
+      }
+    },
+    "npm:@ethersproject/address": {
+      "type": "npm",
+      "name": "npm:@ethersproject/address",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/address",
+        "hash": "sha512-9wYhYt7aghVGo758POM5nqcOMaE168Q6aRLJZwUmiqSrAungkG74gSSeKEIR7ukixesdRZGPgVqme6vmxs1fkA=="
+      }
+    },
+    "npm:@ethersproject/base64": {
+      "type": "npm",
+      "name": "npm:@ethersproject/base64",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/base64",
+        "hash": "sha512-Dr8tcHt2mEbsZr/mwTPIQAf3Ai0Bks/7gTw9dSqk1mQvhW3XvRlmDJr/4n+wg1JmCl16NZue17CDh8xb/vZ0sQ=="
+      }
+    },
+    "npm:@ethersproject/basex": {
+      "type": "npm",
+      "name": "npm:@ethersproject/basex",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/basex",
+        "hash": "sha512-ywlh43GwZLv2Voc2gQVTKBoVQ1mti3d8HK5aMxsfu/nRDnMmNqaSJ3r3n85HBByT8OpoY96SXM1FogC533T4zw=="
+      }
+    },
+    "npm:@ethersproject/bignumber": {
+      "type": "npm",
+      "name": "npm:@ethersproject/bignumber",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/bignumber",
+        "hash": "sha512-n1CAdIHRWjSucQO3MC1zPSVgV/6dy/fjL9pMrPP9peL+QxEg9wOsVqwD4+818B6LUEtaXzVHQiuivzRoxPxUGw=="
+      }
+    },
+    "npm:@ethersproject/bytes": {
+      "type": "npm",
+      "name": "npm:@ethersproject/bytes",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/bytes",
+        "hash": "sha512-nsbxwgFXWh9NyYWo+U8atvmMsSdKJprTcICAkvbBffT75qDocbuggBU0SJiVK2MuTrp0q+xvLkTnGMPK1+uA9A=="
+      }
+    },
+    "npm:@ethersproject/constants": {
+      "type": "npm",
+      "name": "npm:@ethersproject/constants",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/constants",
+        "hash": "sha512-DHI+y5dBNvkpYUMiRQyxRBYBefZkJfo70VUkUAsRjcPs47muV9evftfZ0PJVCXYbAiCgght0DtcF9srFQmIgWA=="
+      }
+    },
+    "npm:@ethersproject/contracts": {
+      "type": "npm",
+      "name": "npm:@ethersproject/contracts",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/contracts",
+        "hash": "sha512-5GJbzEU3X+d33CdfPhcyS+z8MzsTrBGk/sc+G+59+tPa9yFkl6HQ9D6L0QMgNTA9q8dT0XKxxkyp883XsQvbbg=="
+      }
+    },
+    "npm:@ethersproject/hash": {
+      "type": "npm",
+      "name": "npm:@ethersproject/hash",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/hash",
+        "hash": "sha512-qX5WrQfnah1EFnO5zJv1v46a8HW0+E5xuBBDTwMFZLuVTx0tbU2kkx15NqdjxecrLGatQN9FGQKpb1FKdHCt+g=="
+      }
+    },
+    "npm:@ethersproject/hdnode": {
+      "type": "npm",
+      "name": "npm:@ethersproject/hdnode",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/hdnode",
+        "hash": "sha512-OmyYo9EENBPPf4ERhR7oj6uAtUAhYGqOnIS+jE5pTXvdKBS99ikzq1E7Iv0ZQZ5V36Lqx1qZLeak0Ra16qpeOg=="
+      }
+    },
+    "npm:@ethersproject/json-wallets": {
+      "type": "npm",
+      "name": "npm:@ethersproject/json-wallets",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/json-wallets",
+        "hash": "sha512-8oee5Xgu6+RKgJTkvEMl2wDgSPSAQ9MB/3JYjFV9jlKvcYHUXZC+cQp0njgmxdHkYWn8s6/IqIZYm0YWCjO/0g=="
+      }
+    },
+    "npm:@ethersproject/keccak256": {
+      "type": "npm",
+      "name": "npm:@ethersproject/keccak256",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/keccak256",
+        "hash": "sha512-2UcPboeL/iW+pSg6vZ6ydF8tCnv3Iu/8tUmLLzWWGzxWKFFqOBQFLo6uLUv6BDrLgCDfN28RJ/wtByx+jZ4KBg=="
+      }
+    },
+    "npm:@ethersproject/logger": {
+      "type": "npm",
+      "name": "npm:@ethersproject/logger",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/logger",
+        "hash": "sha512-0odtFdXu/XHtjQXJYA3u9G0G8btm0ND5Cu8M7i5vhEcE8/HmF4Lbdqanwyv4uQTr2tx6b7fQRmgLrsnpQlmnig=="
+      }
+    },
+    "npm:@ethersproject/networks": {
+      "type": "npm",
+      "name": "npm:@ethersproject/networks",
+      "data": {
+        "version": "5.7.1",
+        "packageName": "@ethersproject/networks",
+        "hash": "sha512-n/MufjFYv3yFcUyfhnXotyDlNdFb7onmkSy8aQERi2PjNcnWQ66xXxa3XlS8nCcA8aJKJjIIMNJTC7tu80GwpQ=="
+      }
+    },
+    "npm:@ethersproject/pbkdf2": {
+      "type": "npm",
+      "name": "npm:@ethersproject/pbkdf2",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/pbkdf2",
+        "hash": "sha512-oR/dBRZR6GTyaofd86DehG72hY6NpAjhabkhxgr3X2FpJtJuodEl2auADWBZfhDHgVCbu3/H/Ocq2uC6dpNjjw=="
+      }
+    },
+    "npm:@ethersproject/properties": {
+      "type": "npm",
+      "name": "npm:@ethersproject/properties",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/properties",
+        "hash": "sha512-J87jy8suntrAkIZtecpxEPxY//szqr1mlBaYlQ0r4RCaiD2hjheqF9s1LVE8vVuJCXisjIP+JgtK/Do54ej4Sw=="
+      }
+    },
+    "npm:@ethersproject/providers": {
+      "type": "npm",
+      "name": "npm:@ethersproject/providers",
+      "data": {
+        "version": "5.7.2",
+        "packageName": "@ethersproject/providers",
+        "hash": "sha512-g34EWZ1WWAVgr4aptGlVBF8mhl3VWjv+8hoAnzStu8Ah22VHBsuGzP17eb6xDVRzw895G4W7vvx60lFFur/1Rg=="
+      }
+    },
+    "npm:ws@7.4.6": {
+      "type": "npm",
+      "name": "npm:ws@7.4.6",
+      "data": {
+        "version": "7.4.6",
+        "packageName": "ws",
+        "hash": "sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A=="
+      }
+    },
+    "npm:ws@8.15.0": {
+      "type": "npm",
+      "name": "npm:ws@8.15.0",
+      "data": {
+        "version": "8.15.0",
+        "packageName": "ws",
+        "hash": "sha512-H/Z3H55mrcrgjFwI+5jKavgXvwQLtfPCUEp6pi35VhoB0pfcHnSoyuTzkBEZpzq49g1193CUEwIvmsjcotenYw=="
+      }
+    },
+    "npm:ws": {
+      "type": "npm",
+      "name": "npm:ws",
+      "data": {
+        "version": "8.11.0",
+        "packageName": "ws",
+        "hash": "sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg=="
+      }
+    },
+    "npm:@ethersproject/random": {
+      "type": "npm",
+      "name": "npm:@ethersproject/random",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/random",
+        "hash": "sha512-19WjScqRA8IIeWclFme75VMXSBvi4e6InrUNuaR4s5pTF2qNhcGdCUwdxUVGtDDqC00sDLCO93jPQoDUH4HVmQ=="
+      }
+    },
+    "npm:@ethersproject/rlp": {
+      "type": "npm",
+      "name": "npm:@ethersproject/rlp",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/rlp",
+        "hash": "sha512-rBxzX2vK8mVF7b0Tol44t5Tb8gomOHkj5guL+HhzQ1yBh/ydjGnpw6at+X6Iw0Kp3OzzzkcKp8N9r0W4kYSs9w=="
+      }
+    },
+    "npm:@ethersproject/sha2": {
+      "type": "npm",
+      "name": "npm:@ethersproject/sha2",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/sha2",
+        "hash": "sha512-gKlH42riwb3KYp0reLsFTokByAKoJdgFCwI+CCiX/k+Jm2mbNs6oOaCjYQSlI1+XBVejwH2KrmCbMAT/GnRDQw=="
+      }
+    },
+    "npm:@ethersproject/signing-key": {
+      "type": "npm",
+      "name": "npm:@ethersproject/signing-key",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/signing-key",
+        "hash": "sha512-MZdy2nL3wO0u7gkB4nA/pEf8lu1TlFswPNmy8AiYkfKTdO6eXBJyUdmHO/ehm/htHw9K/qF8ujnTyUAD+Ry54Q=="
+      }
+    },
+    "npm:@ethersproject/solidity": {
+      "type": "npm",
+      "name": "npm:@ethersproject/solidity",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/solidity",
+        "hash": "sha512-HmabMd2Dt/raavyaGukF4XxizWKhKQ24DoLtdNbBmNKUOPqwjsKQSdV9GQtj9CBEea9DlzETlVER1gYeXXBGaA=="
+      }
+    },
+    "npm:@ethersproject/strings": {
+      "type": "npm",
+      "name": "npm:@ethersproject/strings",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/strings",
+        "hash": "sha512-/9nu+lj0YswRNSH0NXYqrh8775XNyEdUQAuf3f+SmOrnVewcJ5SBNAjF7lpgehKi4abvNNXyf+HX86czCdJ8Mg=="
+      }
+    },
+    "npm:@ethersproject/transactions": {
+      "type": "npm",
+      "name": "npm:@ethersproject/transactions",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/transactions",
+        "hash": "sha512-kmcNicCp1lp8qanMTC3RIikGgoJ80ztTyvtsFvCYpSCfkjhD0jZ2LOrnbcuxuToLIUYYf+4XwD1rP+B/erDIhQ=="
+      }
+    },
+    "npm:@ethersproject/units": {
+      "type": "npm",
+      "name": "npm:@ethersproject/units",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/units",
+        "hash": "sha512-pD3xLMy3SJu9kG5xDGI7+xhTEmGXlEqXU4OfNapmfnxLVY4EMSSRp7j1k7eezutBPH7RBN/7QPnwR7hzNlEFeg=="
+      }
+    },
+    "npm:@ethersproject/wallet": {
+      "type": "npm",
+      "name": "npm:@ethersproject/wallet",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/wallet",
+        "hash": "sha512-MhmXlJXEJFBFVKrDLB4ZdDzxcBxQ3rLyCkhNqVu3CDYvR97E+8r01UgrI+TI99Le+aYm/in/0vp86guJuM7FCA=="
+      }
+    },
+    "npm:@ethersproject/web": {
+      "type": "npm",
+      "name": "npm:@ethersproject/web",
+      "data": {
+        "version": "5.7.1",
+        "packageName": "@ethersproject/web",
+        "hash": "sha512-Gueu8lSvyjBWL4cYsWsjh6MtMwM0+H4HvqFPZfB6dV8ctbP9zFAO73VG1cMWae0FLPCtz0peKPpZY8/ugJJX2w=="
+      }
+    },
+    "npm:@ethersproject/wordlists": {
+      "type": "npm",
+      "name": "npm:@ethersproject/wordlists",
+      "data": {
+        "version": "5.7.0",
+        "packageName": "@ethersproject/wordlists",
+        "hash": "sha512-S2TFNJNfHWVHNE6cNDjbVlZ6MgE17MIxMbMg2zv3wn+3XSJGosL1m9ZVv3GXCf/2ymSsQ+hRI5IzoMJTG6aoVA=="
+      }
+    },
     "npm:@fastify/busboy": {
       "type": "npm",
       "name": "npm:@fastify/busboy",
@@ -3700,6 +3997,15 @@
         "hash": "sha512-ZvFw1KWS3GVyYBYb7qkmRM/WwL2TQQBxgCK62rlvm4WpVQ23Nb4tYjApUlfjrEGvOs7KHEsmyUn75OHZrJMWPw=="
       }
     },
+    "npm:aes-js": {
+      "type": "npm",
+      "name": "npm:aes-js",
+      "data": {
+        "version": "3.0.0",
+        "packageName": "aes-js",
+        "hash": "sha512-H7wUZRn8WpTq9jocdxQ2c8x2sKo9ZVmzfRE13GiNJXfp7NcKYEdvl3vspKjXox6RIG2VtaRe4JFvxG4rqp2Zuw=="
+      }
+    },
     "npm:agent-base": {
       "type": "npm",
       "name": "npm:agent-base",
@@ -4060,6 +4366,15 @@
         "hash": "sha512-x+VAiMRL6UPkx+kudNvxTl6hB2XNNCG2r+7wixVfIYwu/2HKRXimwQyaumLjMveWvT2Hkd/cAJw+QBMfJ/EKVw=="
       }
     },
+    "npm:bech32": {
+      "type": "npm",
+      "name": "npm:bech32",
+      "data": {
+        "version": "1.1.4",
+        "packageName": "bech32",
+        "hash": "sha512-s0IrSOzLlbvX7yp4WBfPITzpAU8sqQcpsmwXDiKwrG4r491vwCO/XpejasRNl0piBMe/DvP4Tz0mIS/X1DPJBQ=="
+      }
+    },
     "npm:big-integer": {
       "type": "npm",
       "name": "npm:big-integer",
@@ -4094,6 +4409,24 @@
         "version": "4.1.0",
         "packageName": "bl",
         "hash": "sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w=="
+      }
+    },
+    "npm:bn.js": {
+      "type": "npm",
+      "name": "npm:bn.js",
+      "data": {
+        "version": "5.2.1",
+        "packageName": "bn.js",
+        "hash": "sha512-eXRvHzWyYPBuB4NBy0cmYQjGitUrtqwbvlzP3G6VFnNRbsZQIxQ10PbKKHt8gZ/HW/D/747aDl+QkDqg3KQLMQ=="
+      }
+    },
+    "npm:bn.js@4.12.0": {
+      "type": "npm",
+      "name": "npm:bn.js@4.12.0",
+      "data": {
+        "version": "4.12.0",
+        "packageName": "bn.js",
+        "hash": "sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA=="
       }
     },
     "npm:body-parser": {
@@ -4229,6 +4562,15 @@
         "version": "3.0.2",
         "packageName": "braces",
         "hash": "sha512-b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A=="
+      }
+    },
+    "npm:brorand": {
+      "type": "npm",
+      "name": "npm:brorand",
+      "data": {
+        "version": "1.1.0",
+        "packageName": "brorand",
+        "hash": "sha512-cKV8tMCEpQs4hK/ik71d6LrPOnpkpGBR0wzxqr68g2m/LB2GxVYQroAjMJZRVM1Y4BCjCKc3vAamxSzOY2RP+w=="
       }
     },
     "npm:browser-sync": {
@@ -5284,6 +5626,15 @@
         "hash": "sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA=="
       }
     },
+    "npm:elliptic": {
+      "type": "npm",
+      "name": "npm:elliptic",
+      "data": {
+        "version": "6.5.4",
+        "packageName": "elliptic",
+        "hash": "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
+      }
+    },
     "npm:emojis-list": {
       "type": "npm",
       "name": "npm:emojis-list",
@@ -5750,6 +6101,15 @@
         "version": "1.8.1",
         "packageName": "etag",
         "hash": "sha512-aIL5Fx7mawVa300al2BnEE4iNvo1qETxLrPI/o05L7z6go7fCw1J6EQmbK4FmJ2AS7kgVF/KEZWufBfdClMcPg=="
+      }
+    },
+    "npm:ethers": {
+      "type": "npm",
+      "name": "npm:ethers",
+      "data": {
+        "version": "5.7.2",
+        "packageName": "ethers",
+        "hash": "sha512-wswUsmWo1aOK8rR7DIKiWSw9DbLWe6x98Jrn8wcTflTVvaXhAMaB5zGAXy0GYQEQp9iO1iSHWVyARQm11zUtyg=="
       }
     },
     "npm:eventemitter-asyncresource": {
@@ -6490,6 +6850,15 @@
         "hash": "sha512-kFjcSNhnlGV1kyoGk7OXKSawH5JOb/LzUc5w9B02hOTO0dfFRjbHQKvg1d6cf3HbeUmtU9VbbV3qzZ2Teh97WQ=="
       }
     },
+    "npm:hash.js": {
+      "type": "npm",
+      "name": "npm:hash.js",
+      "data": {
+        "version": "1.1.7",
+        "packageName": "hash.js",
+        "hash": "sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA=="
+      }
+    },
     "npm:hasown": {
       "type": "npm",
       "name": "npm:hasown",
@@ -6515,6 +6884,15 @@
         "version": "3.0.0",
         "packageName": "hdr-histogram-percentiles-obj",
         "hash": "sha512-7kIufnBqdsBGcSZLPJwqHT3yhk1QTsSlFsVD3kx5ixH/AlgBs9yM1q6DPhXZ8f8gtdqgh7N7/5btRLpQsS2gHw=="
+      }
+    },
+    "npm:hmac-drbg": {
+      "type": "npm",
+      "name": "npm:hmac-drbg",
+      "data": {
+        "version": "1.0.1",
+        "packageName": "hmac-drbg",
+        "hash": "sha512-Tti3gMqLdZfhOQY1Mzf/AanLiqh1WTiJgEj26ZuYQ9fbkLomzGchCws4FyrSd4VkpBfiNhaE1On+lOz894jvXg=="
       }
     },
     "npm:hosted-git-info": {
@@ -7345,6 +7723,15 @@
         "hash": "sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q=="
       }
     },
+    "npm:js-sha3": {
+      "type": "npm",
+      "name": "npm:js-sha3",
+      "data": {
+        "version": "0.8.0",
+        "packageName": "js-sha3",
+        "hash": "sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q=="
+      }
+    },
     "npm:js-tokens": {
       "type": "npm",
       "name": "npm:js-tokens",
@@ -7982,6 +8369,15 @@
         "version": "1.0.1",
         "packageName": "minimalistic-assert",
         "hash": "sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A=="
+      }
+    },
+    "npm:minimalistic-crypto-utils": {
+      "type": "npm",
+      "name": "npm:minimalistic-crypto-utils",
+      "data": {
+        "version": "1.0.1",
+        "packageName": "minimalistic-crypto-utils",
+        "hash": "sha512-JIYlbt6g8i5jKfJ3xz7rF0LXmv2TkDxBLUkiBeZ7bAx4GnnNMr8xFpGnOxn6GhTEHx3SjRrZEoU+j04prX1ktg=="
       }
     },
     "npm:minimist": {
@@ -9424,6 +9820,15 @@
         "hash": "sha512-pN/yOAvcC+5rQ5nERGuwrjLlYvLTbCibnZ1I7B1LaiAz9BRBlE9GMgE/eqV30P7aJQUf7Ddimy/RsbYO/GrVGg=="
       }
     },
+    "npm:scrypt-js": {
+      "type": "npm",
+      "name": "npm:scrypt-js",
+      "data": {
+        "version": "3.0.1",
+        "packageName": "scrypt-js",
+        "hash": "sha512-cdwTTnqPu0Hyvf5in5asVdZocVDTNRmR7XEcJuIzMjJeSHybHl7vpB66AzwTaIg6CLSbtjcxc8fqcySfnTkccA=="
+      }
+    },
     "npm:select-hose": {
       "type": "npm",
       "name": "npm:select-hose",
@@ -10358,24 +10763,6 @@
         "version": "4.15.1",
         "packageName": "webpack-dev-server",
         "hash": "sha512-5hbAst3h3C3L8w6W4P96L5vaV0PxSmJhxZvWKYIdgxOQm8pNZ5dEOmmSLBVpP85ReeyRt6AS1QJNyo/oFFPeVA=="
-      }
-    },
-    "npm:ws@8.15.0": {
-      "type": "npm",
-      "name": "npm:ws@8.15.0",
-      "data": {
-        "version": "8.15.0",
-        "packageName": "ws",
-        "hash": "sha512-H/Z3H55mrcrgjFwI+5jKavgXvwQLtfPCUEp6pi35VhoB0pfcHnSoyuTzkBEZpzq49g1193CUEwIvmsjcotenYw=="
-      }
-    },
-    "npm:ws": {
-      "type": "npm",
-      "name": "npm:ws",
-      "data": {
-        "version": "8.11.0",
-        "packageName": "ws",
-        "hash": "sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg=="
       }
     },
     "npm:webpack-merge": {
@@ -13868,6 +14255,879 @@
         "type": "static"
       }
     ],
+    "npm:@ethersproject/abi": [
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/address",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/constants",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/hash",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/keccak256",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abi",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/abstract-provider": [
+      {
+        "source": "npm:@ethersproject/abstract-provider",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-provider",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-provider",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-provider",
+        "target": "npm:@ethersproject/networks",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-provider",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-provider",
+        "target": "npm:@ethersproject/transactions",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-provider",
+        "target": "npm:@ethersproject/web",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/abstract-signer": [
+      {
+        "source": "npm:@ethersproject/abstract-signer",
+        "target": "npm:@ethersproject/abstract-provider",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-signer",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-signer",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-signer",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/abstract-signer",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/address": [
+      {
+        "source": "npm:@ethersproject/address",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/address",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/address",
+        "target": "npm:@ethersproject/keccak256",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/address",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/address",
+        "target": "npm:@ethersproject/rlp",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/base64": [
+      {
+        "source": "npm:@ethersproject/base64",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/basex": [
+      {
+        "source": "npm:@ethersproject/basex",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/basex",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/bignumber": [
+      {
+        "source": "npm:@ethersproject/bignumber",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/bignumber",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/bignumber",
+        "target": "npm:bn.js",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/bytes": [
+      {
+        "source": "npm:@ethersproject/bytes",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/constants": [
+      {
+        "source": "npm:@ethersproject/constants",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/contracts": [
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/abi",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/abstract-provider",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/abstract-signer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/address",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/constants",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/contracts",
+        "target": "npm:@ethersproject/transactions",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/hash": [
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/abstract-signer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/address",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/base64",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/keccak256",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hash",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/hdnode": [
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/abstract-signer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/basex",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/pbkdf2",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/sha2",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/signing-key",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/transactions",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/hdnode",
+        "target": "npm:@ethersproject/wordlists",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/json-wallets": [
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/abstract-signer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/address",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/hdnode",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/keccak256",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/pbkdf2",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/random",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:@ethersproject/transactions",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:aes-js",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/json-wallets",
+        "target": "npm:scrypt-js",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/keccak256": [
+      {
+        "source": "npm:@ethersproject/keccak256",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/keccak256",
+        "target": "npm:js-sha3",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/networks": [
+      {
+        "source": "npm:@ethersproject/networks",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/pbkdf2": [
+      {
+        "source": "npm:@ethersproject/pbkdf2",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/pbkdf2",
+        "target": "npm:@ethersproject/sha2",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/properties": [
+      {
+        "source": "npm:@ethersproject/properties",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/providers": [
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/abstract-provider",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/abstract-signer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/address",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/base64",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/basex",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/constants",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/hash",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/networks",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/random",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/rlp",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/sha2",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/transactions",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:@ethersproject/web",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:bech32",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/providers",
+        "target": "npm:ws@7.4.6",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/random": [
+      {
+        "source": "npm:@ethersproject/random",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/random",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/rlp": [
+      {
+        "source": "npm:@ethersproject/rlp",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/rlp",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/sha2": [
+      {
+        "source": "npm:@ethersproject/sha2",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/sha2",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/sha2",
+        "target": "npm:hash.js",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/signing-key": [
+      {
+        "source": "npm:@ethersproject/signing-key",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/signing-key",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/signing-key",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/signing-key",
+        "target": "npm:bn.js",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/signing-key",
+        "target": "npm:elliptic",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/signing-key",
+        "target": "npm:hash.js",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/solidity": [
+      {
+        "source": "npm:@ethersproject/solidity",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/solidity",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/solidity",
+        "target": "npm:@ethersproject/keccak256",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/solidity",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/solidity",
+        "target": "npm:@ethersproject/sha2",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/solidity",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/strings": [
+      {
+        "source": "npm:@ethersproject/strings",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/strings",
+        "target": "npm:@ethersproject/constants",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/strings",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/transactions": [
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/address",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/constants",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/keccak256",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/rlp",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/transactions",
+        "target": "npm:@ethersproject/signing-key",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/units": [
+      {
+        "source": "npm:@ethersproject/units",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/units",
+        "target": "npm:@ethersproject/constants",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/units",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/wallet": [
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/abstract-provider",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/abstract-signer",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/address",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/hash",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/hdnode",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/json-wallets",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/keccak256",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/random",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/signing-key",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/transactions",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wallet",
+        "target": "npm:@ethersproject/wordlists",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/web": [
+      {
+        "source": "npm:@ethersproject/web",
+        "target": "npm:@ethersproject/base64",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/web",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/web",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/web",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/web",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      }
+    ],
+    "npm:@ethersproject/wordlists": [
+      {
+        "source": "npm:@ethersproject/wordlists",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wordlists",
+        "target": "npm:@ethersproject/hash",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wordlists",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wordlists",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:@ethersproject/wordlists",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      }
+    ],
     "npm:@humanwhocodes/config-array": [
       {
         "source": "npm:@humanwhocodes/config-array",
@@ -17068,6 +18328,43 @@
         "type": "static"
       }
     ],
+    "npm:elliptic": [
+      {
+        "source": "npm:elliptic",
+        "target": "npm:bn.js@4.12.0",
+        "type": "static"
+      },
+      {
+        "source": "npm:elliptic",
+        "target": "npm:brorand",
+        "type": "static"
+      },
+      {
+        "source": "npm:elliptic",
+        "target": "npm:hash.js",
+        "type": "static"
+      },
+      {
+        "source": "npm:elliptic",
+        "target": "npm:hmac-drbg",
+        "type": "static"
+      },
+      {
+        "source": "npm:elliptic",
+        "target": "npm:inherits",
+        "type": "static"
+      },
+      {
+        "source": "npm:elliptic",
+        "target": "npm:minimalistic-assert",
+        "type": "static"
+      },
+      {
+        "source": "npm:elliptic",
+        "target": "npm:minimalistic-crypto-utils",
+        "type": "static"
+      }
+    ],
     "npm:encoding": [
       {
         "source": "npm:encoding",
@@ -17986,6 +19283,158 @@
         "type": "static"
       }
     ],
+    "npm:ethers": [
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/abi",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/abstract-provider",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/abstract-signer",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/address",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/base64",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/basex",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/bignumber",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/bytes",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/constants",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/contracts",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/hash",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/hdnode",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/json-wallets",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/keccak256",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/logger",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/networks",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/pbkdf2",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/properties",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/providers",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/random",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/rlp",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/sha2",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/signing-key",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/solidity",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/strings",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/transactions",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/units",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/wallet",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/web",
+        "type": "static"
+      },
+      {
+        "source": "npm:ethers",
+        "target": "npm:@ethersproject/wordlists",
+        "type": "static"
+      }
+    ],
     "npm:execa": [
       {
         "source": "npm:execa",
@@ -18805,6 +20254,18 @@
         "type": "static"
       }
     ],
+    "npm:hash.js": [
+      {
+        "source": "npm:hash.js",
+        "target": "npm:inherits",
+        "type": "static"
+      },
+      {
+        "source": "npm:hash.js",
+        "target": "npm:minimalistic-assert",
+        "type": "static"
+      }
+    ],
     "npm:hasown": [
       {
         "source": "npm:hasown",
@@ -18826,6 +20287,23 @@
       {
         "source": "npm:hdr-histogram-js",
         "target": "npm:pako",
+        "type": "static"
+      }
+    ],
+    "npm:hmac-drbg": [
+      {
+        "source": "npm:hmac-drbg",
+        "target": "npm:hash.js",
+        "type": "static"
+      },
+      {
+        "source": "npm:hmac-drbg",
+        "target": "npm:minimalistic-assert",
+        "type": "static"
+      },
+      {
+        "source": "npm:hmac-drbg",
+        "target": "npm:minimalistic-crypto-utils",
         "type": "static"
       }
     ],

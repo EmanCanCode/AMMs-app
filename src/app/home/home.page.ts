@@ -14,31 +14,31 @@ declare const window: any;
 export class HomePage implements OnInit {
   private provider = new ethers.providers.Web3Provider(window.ethereum);
   et1: Token = {
-    address: '0x1c1521cf734CD13B02e8150951c3bF2B438be780',
-    balance: 0,
+    address: '0x5FbDB2315678afecb367f032d93F642f64180aa3',
+    balance: '0',
     contract: new ethers.Contract(
-      '0x1c1521cf734CD13B02e8150951c3bF2B438be780',
+      '0x5FbDB2315678afecb367f032d93F642f64180aa3',
       tokenBuild.abi,
       this.provider
     )
   }
   et2: Token = {
-    address: '0x4432a6DcfAEAB227673B43C30c6fEf40eaBD5D30',
-    balance: 0,
+    address: '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512',
+    balance: '0',
     contract: new ethers.Contract(
-      '0x4432a6DcfAEAB227673B43C30c6fEf40eaBD5D30',
+      '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512',
       tokenBuild.abi,
       this.provider
     )
   }
   amm: Amm = {
-    address: '0x0B1a87021ec75fBaE919b1e86b2B1335FFC8F4d3',
-    reserveA: 0,
-    reserveB: 0,
+    address: '0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0',
+    reserveA: '0',
+    reserveB: '0',
     totalShares: 0,
     userShares: 0,
     contract: new ethers.Contract(
-      '0x0B1a87021ec75fBaE919b1e86b2B1335FFC8F4d3',
+      '0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0',
       ammBuild.abi,
       this.provider
     )
@@ -80,12 +80,6 @@ export class HomePage implements OnInit {
       this.alert('Please install metamask');
       return;
     }
-
-    if (window.ethereum.networkVersion != this.networkId) {
-      this.alert('Please switch to Eman network');
-      return;
-    }
-
     const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
 
     if (accounts.length == 0) {
@@ -96,26 +90,38 @@ export class HomePage implements OnInit {
     this.parsedAddr = this.parseAddress(this.connectedAddr);
     this.authorized = true;
     await this.init();
+    this.provider = new ethers.providers.Web3Provider(window.ethereum);
     this.signer = this.provider.getSigner();
+    this.amm.contract!.connect(this.signer);
+    console.log({ signer: this.signer, account: accounts[0] });
   }
 
   async init() {
     if (!this.authorized) return;
     // get et1 balance
-    this.et1.balance = this.formatNumber(await this.et1.contract.balanceOf(this.connectedAddr));
+    this.et1.balance = this.formatNumber(
+      ethers.utils.formatEther(await this.et1.contract.balanceOf(this.connectedAddr))
+    );
     // get et2 balance
-    this.et2.balance = this.formatNumber(await this.et2.contract.balanceOf(this.connectedAddr));
+    this.et2.balance = this.formatNumber(
+      ethers.utils.formatEther(await this.et2.contract.balanceOf(this.connectedAddr))
+    );
     // get reserveA
-    this.amm.reserveA = this.formatNumber(await this.amm.contract.reserveA());
+    this.amm.reserveA = this.formatNumber(
+      ethers.utils.formatEther(await this.amm.contract.reserveA())
+    );
     // get reserveB
-    this.amm.reserveB = this.formatNumber(await this.amm.contract.reserveB());
+    this.amm.reserveB = this.formatNumber(
+      ethers.utils.formatEther(await this.amm.contract.reserveB())
+    );
     // get total shares
     this.amm.totalShares = this.formatNumber(await this.amm.contract.totalSupply());
     // get user shares
     this.amm.userShares = this.formatNumber(await this.amm.contract.balanceOf(this.connectedAddr));
   }
 
-  formatNumber(num: number): string {
+  formatNumber(num: string | number): string {
+    num = Number(num);
     if (num >= 1e30) {
       return (num / 1e30).toFixed(1) + 'N'; // Nonillion
     } else if (num >= 1e27) {
@@ -137,7 +143,7 @@ export class HomePage implements OnInit {
     } else if (num >= 1e3) {
       return (num / 1e3).toFixed(1) + 'k'; // Thousand
     } else {
-      return num.toString();
+      return num.toFixed(2).toString();
     }
   }
 
@@ -185,9 +191,19 @@ export class HomePage implements OnInit {
         signer: this.signer,
         provider: this.provider,
         contract: this.amm.contract,
-        shares: this.amm.userShares
+        shares: this.amm.userShares,
+        tokens: [this.et1.address, this.et2.address]
       }
     }).then(async modal => await modal.present());
+  }
+
+  async swap() {
+    let tx = await this.amm.contract!.connect(this.signer).swap(
+      this.et1.address,
+      ethers.utils.parseEther('1'),
+    );
+    const receipt = await tx.wait();
+    console.log({ receipt });
   }
 
 }

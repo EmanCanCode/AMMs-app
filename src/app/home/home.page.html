@@ -8,12 +8,12 @@
   <div class="main-container">
     <div class="card-container">
       <div class="card">
-        <legend class="card-title">Swap</legend>
+        <legend class="card-title">Swap</legend><br>
         <div class="card-body">
           <div class="token-data">
             <p class="name">ET1 balance: <span>{{et1.balance}}</span></p>
             <div class="swap-btn-container">
-              <ion-button [disabled]="!authorized" class="swap-btn">Swap</ion-button>
+              <ion-button [disabled]="!authorized" class="swap-btn" (click)="swap()">Swap</ion-button>
               <ion-button [disabled]="!authorized" class="need-tokens">Need more?</ion-button>
             </div>
           </div>
@@ -29,15 +29,15 @@
         </div>
       </div>
       <div class="card">
-        <legend class="card-title">Liquidity</legend>
+        <legend class="card-title">Liquidity</legend><br>
         <div id="card-body">
-          <p class="reserves">ET1 Reserves: <span>151.151 ET1</span></p>
-          <p class="reserves">ET2 Reserves: <span>358.555 ET2</span></p>
-          <p class="reserves">Total Shares: <span>1501</span></p>
-          <p class="reserves">My shares (LPT): <span>707</span></p>
+          <p class="reserves">ET1 Reserves: <span>{{amm.reserveA}} ET1</span></p>
+          <p class="reserves">ET2 Reserves: <span>{{amm.reserveB}} ET2</span></p>
+          <p class="reserves">Total Shares: <span>{{amm.totalShares}}</span></p>
+          <p class="reserves">My shares (LPT): <span>{{amm.userShares}}</span></p>
           <div class="btn-container">
-            <ion-button [disabled]="!authorized" class="add-lqty">Add Liquidity</ion-button>
-            <ion-button [disabled]="!authorized" class="remove-lqty" (click)="liquidity('remove')">Remove Liquidity</ion-button>
+            <ion-button [disabled]="!authorized" class="lqty" (click)="liquidity('add')">Add Liquidity</ion-button>
+            <ion-button [disabled]="!authorized" class="lqty" (click)="liquidity('remove')">Remove Liquidity</ion-button>
           </div>
         </div>
       </div>

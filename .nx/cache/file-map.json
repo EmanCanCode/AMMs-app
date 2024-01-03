@@ -16,6 +16,7 @@
     "@capacitor/keyboard": "5.0.6",
     "@capacitor/status-bar": "5.0.6",
     "@ionic/angular": "^7.0.0",
+    "ethers": "^5.7.2",
     "ionicons": "^7.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -71,19 +72,19 @@
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "13409102653342610549"
+        "hash": "3672888496890136406"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "16585446143172665624"
+        "hash": "17971982885117954197"
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "7567319725825121271"
+        "hash": "6850615520215798158"
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "12781421592871103813"
+        "hash": "10310175078182564269"
       },
       {
         "file": ".vscode/extensions.json",
@@ -111,15 +112,59 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "5245503538609048504"
+        "hash": "6391734080906408534"
       },
       {
         "file": "package.json",
-        "hash": "17516787828672301527"
+        "hash": "16509658842444439402"
+      },
+      {
+        "file": "src/abi/CPAMM.sol/CPAMM.dbg.json",
+        "hash": "3070017848618930564"
+      },
+      {
+        "file": "src/abi/CPAMM.sol/CPAMM.json",
+        "hash": "13733275057704538821"
+      },
+      {
+        "file": "src/abi/EmanToken.sol/EmanToken.dbg.json",
+        "hash": "16203401728234324934"
+      },
+      {
+        "file": "src/abi/EmanToken.sol/EmanToken.json",
+        "hash": "3311123803372656884"
+      },
+      {
+        "file": "src/app/_modals/liquidity/liquidity.html",
+        "hash": "16809157108572362925"
+      },
+      {
+        "file": "src/app/_modals/liquidity/liquidity.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/_modals/liquidity/liquidity.ts",
+        "hash": "14001833163413357121"
+      },
+      {
+        "file": "src/app/_modals/modals.module.ts",
+        "hash": "4191047448678957343"
+      },
+      {
+        "file": "src/app/_modals/swap/swap.html",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/_modals/swap/swap.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/_modals/swap/swap.ts",
+        "hash": "3244421341483603138"
       },
       {
         "file": "src/app/app-routing.module.ts",
-        "hash": "7092203362848417435"
+        "hash": "8444188097712358767"
       },
       {
         "file": "src/app/app.component.html",
@@ -139,7 +184,7 @@
       },
       {
         "file": "src/app/app.module.ts",
-        "hash": "5073765293049625490"
+        "hash": "14921406522193970108"
       },
       {
         "file": "src/app/home/home-routing.module.ts",
@@ -151,11 +196,11 @@
       },
       {
         "file": "src/app/home/home.page.html",
-        "hash": "18057402654362901431"
+        "hash": "4673512750994918469"
       },
       {
         "file": "src/app/home/home.page.scss",
-        "hash": "18332711958274270584"
+        "hash": "11122117158194106159"
       },
       {
         "file": "src/app/home/home.page.spec.ts",
@@ -163,7 +208,35 @@
       },
       {
         "file": "src/app/home/home.page.ts",
-        "hash": "1571215977137710084"
+        "hash": "1925517020706745365"
+      },
+      {
+        "file": "src/app/pages/ttt/ttt-routing.module.ts",
+        "hash": "14787993875276426848"
+      },
+      {
+        "file": "src/app/pages/ttt/ttt.module.ts",
+        "hash": "9980443632531972041"
+      },
+      {
+        "file": "src/app/pages/ttt/ttt.page.html",
+        "hash": "8398142947616409858"
+      },
+      {
+        "file": "src/app/pages/ttt/ttt.page.scss",
+        "hash": "5446410906728711292"
+      },
+      {
+        "file": "src/app/pages/ttt/ttt.page.spec.ts",
+        "hash": "13686508302482801530"
+      },
+      {
+        "file": "src/app/pages/ttt/ttt.page.ts",
+        "hash": "3506542456461861384"
+      },
+      {
+        "file": "src/assets/ecc.png",
+        "hash": "15279462544893644069"
       },
       {
         "file": "src/assets/icon/favicon.png",
@@ -210,16 +283,12 @@
         "hash": "3323586086306676158"
       },
       {
-        "file": "t.json",
-        "hash": "3244421341483603138"
-      },
-      {
         "file": "tsconfig.app.json",
         "hash": "9041030522571917449"
       },
       {
         "file": "tsconfig.json",
-        "hash": "9300148005582941852"
+        "hash": "14816636973160673165"
       },
       {
         "file": "tsconfig.spec.json",

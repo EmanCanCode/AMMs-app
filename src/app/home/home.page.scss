@@ -66,12 +66,13 @@
 
       }
       .btn-container {
+        margin-top: 20px; // Spacing above buttons
         display: flex;
         justify-content: space-between;
         align-items: center;
         gap: 10px; // Spacing between buttons
-        width: 50%;
-        .add-lqty, .remove-lqty {
+        width: 100%;
+        .lqty {
           --background: #548ada; // Teal color for liquidity buttons
           // width: 100%;
         }

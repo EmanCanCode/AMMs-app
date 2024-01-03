@@ -1,0 +1,41 @@
+.content-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto 0;
+  align-items: center;
+
+  .header {
+    margin: 25px;
+  }
+  .row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    .game-tile {
+      width: 50px;
+      height: 30px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .restart {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    ion-button {
+      width: 100%;
+    }
+  }
+}
+
+
+.addGreen {
+  --background: green;
+}
+
+.addYellow {
+  --background: yellow;
+}

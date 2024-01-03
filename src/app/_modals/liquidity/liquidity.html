@@ -1,1 +1,26 @@
-<div class="">hello</div>
+<div class="liquidity-modal">
+  <div class="modal-header">
+    <h2>Manage Liquidity</h2>
+    <button class="close-modal-btn" (click)="close(null)">&times;</button>
+  </div>
+  <div class="modal-body">
+    <div class="liquidity-form">
+      <div class="input-group" *ngIf="action == 'add'">
+        <label for="et1Amount">ET1 Amount to add</label>
+        <input type="number" id="et1Amount" name="et1Amount" placeholder="Enter ET1 amount" [(ngModel)]="et1ToAdd">
+      </div>
+      <div class="input-group" *ngIf="action == 'add'">
+        <label for="et2Amount">ET2 Amount to add</label>
+        <input type="number" id="et2Amount" name="et2Amount" placeholder="Enter ET2 amount" [(ngModel)]="et2ToAdd">
+      </div>
+      <div class="input-group" *ngIf="action == 'remove'">
+        <label for="shareAmount">Share amount to liquidate</label>
+        <input type="number" id="shareAmount" name="shareAmount" placeholder="Enter share amount to liquidate" [(ngModel)]="sharesToLiquidate">
+      </div>
+      <div class="modal-actions">
+        <button type="button" class="liquidity-btn add" *ngIf="action == 'add'" (click)="add()">Add Liquidity</button>
+        <button type="button" class="liquidity-btn remove" *ngIf="action == 'remove'">Remove Liquidity</button>
+      </div>
+    </div>
+  </div>
+</div>

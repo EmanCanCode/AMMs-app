@@ -1,0 +1,29 @@
+<ion-content [fullscreen]="true">
+  <div class="content-container">
+    <div class="header">
+      <h1>TIC TAC TOE</h1>
+    </div>
+
+    <div class="content">
+      <p *ngIf="this.err_msg">{{ err_msg }}</p>
+      <div class="row">
+        <ion-button class="game-tile" id="1" (click)="playTile('1')"></ion-button>
+        <ion-button class="game-tile" id="2" (click)="playTile('2')"></ion-button>
+        <ion-button class="game-tile" id="3" (click)="playTile('3')"></ion-button>
+      </div>
+      <div class="row">
+        <ion-button class="game-tile" id="4" (click)="playTile('4')"></ion-button>
+        <ion-button class="game-tile" id="5" (click)="playTile('5')"></ion-button>
+        <ion-button class="game-tile" id="6" (click)="playTile('6')"></ion-button>
+      </div>
+      <div class="row">
+        <ion-button class="game-tile" id="7" (click)="playTile('7')"></ion-button>
+        <ion-button class="game-tile" id="8" (click)="playTile('8')"></ion-button>
+        <ion-button class="game-tile" id="9" (click)="playTile('9')"></ion-button>
+      </div>
+      <div class="restart">
+        <ion-button (click)="restartGame()">Restart</ion-button>
+      </div>
+    </div>
+  </div>
+</ion-content>
